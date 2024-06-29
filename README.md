@@ -1,30 +1,49 @@
-# React + TypeScript + Vite
+# Currency Converter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based Currency Converter application that allows users to convert between different currencies. It includes features such as currency selection, conversion history, and an integrated calculator for quick calculations.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Currency Conversion**: Convert amounts between different currencies using live exchange rates.
+- **Currency Selector**: Choose currencies from a list of available options.
+- **Swap Currencies**: Easily swap the "from" and "to" currencies.
+- **Conversion History**: Keep track of the last 10 conversions.
+- **Integrated Calculator**: Perform quick calculations without leaving the app.
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- React
+- TypeScript
+- Tailwind CSS
+- react-icons
+- Custom CSS for responsive design
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Follow these instructions to set up and run the project locally.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Prerequisites
+
+- Node.js
+- npm (Node Package Manager) or yarn
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/currency-converter-app.git
+   ```
+
+2 . Navigate to the project directory:
+
+````bash
+cd currency-converter-app
+
+3. Install the dependencies:
+```bash
+npm install
+4. Running the App
+```bash
+npm run dev
+````
